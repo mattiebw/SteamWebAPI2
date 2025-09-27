@@ -54,6 +54,10 @@ namespace SteamWebAPI2.Models.GameEconomy
         public uint DefIndex { get; set; }
         public uint Level { get; set; }
         public uint Quality { get; set; }
+        [JsonProperty(PropertyName = "custom_name")]
+        public string CustomName { get; set; }
+        [JsonProperty(PropertyName = "custom_desc")]
+        public string CustomDesc { get; set; }
         public ulong Inventory { get; set; }
         public uint Quantity { get; set; }
         public uint Origin { get; set; }

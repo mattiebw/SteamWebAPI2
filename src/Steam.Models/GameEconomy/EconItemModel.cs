@@ -11,6 +11,8 @@ namespace Steam.Models.GameEconomy
         public uint DefIndex { get; set; }
         public uint Level { get; set; }
         public uint Quality { get; set; }
+        public string CustomName { get; set; }
+        public string CustomDesc { get; set; }
         public ulong Inventory { get; set; }
         public uint Quantity { get; set; }
         public uint Origin { get; set; }
